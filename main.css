@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 70%;
+    min-height: 300px;
+    margin: 10px auto;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 70px;
+}
+.screen1{
+    width: 70%;
+    height: 300px;
+    margin: 10px auto;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 20px;
+    padding: 0 0 0 70px;
+    display: flex;
+}
+p{
+    margin: 10px;
+}
+.text{
+    width: 90%;
+    display: none;
+}
+
+.button{
+    width: 125px;
+    height: 50px;
+    margin: 0 auto;
+}
+.buttonWraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    width: 60px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+}
+
+.button2{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(11, 131, 121);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.textarea{
+    width: 100%;
+    height: 200px;
+    margin: 20px 0 0 0;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+   padding: 20px 0 0 0;
+   font-size: 18px;
+   box-sizing: border-box;
+}
+
+.textarea:focus{
+    border: 2px solid rgb(70, 136, 114);
+}
+
+.textButton{
+    margin: 10px 0 0;
+}
+
+
+
+.buttonText{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.buttonText1{
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.style{
+    font-size: 14px;
+    padding: 30px 0;
+    display: none;
+}
+
+.radio{
+    margin: 10px;
+}
+
+select[name = 'choose']{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.color{
+    margin: 10px 0 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='checkbox']{
+    margin: 10px;
+}
+
+.colorWraper{
+    display: none;
+}
+
+.color1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% /3);
+    height: calc(100% / 3) ;
+    border: 1px solid black;
+    
+}
+.colorWraper1{
+    display: none;
+}
+
+.color2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 50px 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1{
+    width: calc(100% /3);
+    height: calc(100% / 3) ;
+    border: 1px solid black;
+    
+}
+
+.screen2{
+    width: 900px;
+    min-height: 200px;
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none;
+};
+
+.wraper{
+    margin-top: 20px;
+}
+
+.formWrapper{
+    display: none;
+}
+
+.listWraper{
+    display: none;
+}
+
+.CreateTable{
+    margin: 20px 0 0 0;
+width: 80px;
+height: 30px;
+background-color: rgb(90, 177, 3);
+color: white;
+border-radius: 5px;
+border: none;
+}
+.countTr{
+    margin: 10px 0 10px 10px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.countTd{
+    margin: 0 0 10px 10px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+.widthTD{
+    margin: 10px 0 10px 10px;
+    width: 85%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+.heightTD{
+    margin: 0 0 10px 10px;
+    width: 85%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+.WidthBorder{
+    width: 20%;
+    height: 30px;
+}
+.typeBorder{
+    width: 20%;
+    height: 30px;
+}
+.colorBorder{
+    width: 20%;
+    height: 30px;
+}
+.CreateList{
+    margin: 20px 0 0 0;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(90, 177, 3);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.countLi{
+    width: 90%;
+    height: 30px;
+    margin: 10px 0 10px 10px;
+}
+
+.marks{
+    width: 85%;
+    height: 30px;
+    margin: 0 0 0 10px;
+}

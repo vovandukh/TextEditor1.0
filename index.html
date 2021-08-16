@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="screen">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="wrap">
+    <div class="buttonWraper">
+        <button class="button1">edit</button>
+        <button class="button2">style</button>
+    </div>
+</div>
+    <div class=" screen1">
+        <div class="text">
+            <textarea class="textarea">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </textarea>
+            <div class="textButton">
+                <button class="buttonText">add</button>
+                <button class="buttonText1">save</button>
+            </div>
+        </div>
+        <div class="style">
+            <h4>Font Size:</h4>
+            <div class="radio">
+                <input type="radio" name="fontSize" value="12px"> 12px
+                <input type="radio" name="fontSize" value="14px"> 14px
+                <input type="radio" name="fontSize" value="16px" checked> 16px
+                <input type="radio" name="fontSize" value="18px"> 18px
+                <input type="radio" name="fontSize" value="20px"> 20px
+            </div>
+            <h4>Font Family:</h4>
+            <select name="choose">
+                <option value="Choose option" disabled selected>Choose option </option>
+                <option value="cursive">cursive</option>
+                <option value="fantasy">fantasy</option>
+                <option value="monospace">monospace</option>
+                <option value="sans-serif">sans-serif</option>
+            </select>
+            <h4>Colors:</h4>
+            <button class="colorText color">Color of text</button>
+            <button class="colorBacground color">Bacground Color</button>
+            <h4>Style:</h4>
+            <input type="checkbox" class="bold"> Bold text
+            <input type="checkbox" class="cursive"> Cursive text
+        </div>
+        <div class="colorWraper">
+            <div class="color1 ">
+                <div class="box" style="background-color: red;"></div>
+                <div class="box" style="background-color: blue;"></div>
+                <div class="box " style="background-color: green;"></div>
+                <div class="box " style="background-color: black;"></div>
+                <div class="box " style="background-color: sandybrown;"></div>
+                <div class="box " style="background-color: purple;"></div>
+                <div class="box " style="background-color: white;"></div>
+                <div class="box " style="background-color: violet;"></div>
+                <div class="box " style="background-color: teal;"></div>
+            </div>
+        </div>
+        <div class="colorWraper1">
+            <div class="color2">
+                <div class="box1" style="background-color: red;"></div>
+                <div class="box1" style="background-color: blue;"></div>
+                <div class="box1" style="background-color: green;"></div>
+                <div class="box1" style="background-color: black;"></div>
+                <div class="box1" style="background-color: sandybrown;"></div>
+                <div class="box1" style="background-color: purple;"></div>
+                <div class="box1" style="background-color: white;"></div>
+                <div class="box1" style="background-color: violet;"></div>
+                <div class="box1" style="background-color: teal;"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="screen2">
+        <h3>Choose what you want</h3>
+        <input type="radio" name="tableOrList" class="table"> table
+        <input type="radio" name="tableOrList" class="list"> list
+        <div class="formWrapper">
+            <div class="wraper" >Count TR: <input type="text" class="countTr"></div>
+            <div class="wraper" >Count TD: <input type="text" class="countTd"></div>
+            <h3>Add style to you table:</h3>
+            <div class="wraper" >Width of TD: <input type="text" class="widthTD"></div>
+            <div class="wraper" >Height of TD: <input type="text" class="heightTD"></div>
+            <div class="wraper">
+                Width of border: 
+                <input type="text" class="WidthBorder">
+                Type of border: 
+                <select class="typeBorder">
+                    <option value="solid" checked>solid</option>
+                </select>
+                Color border 
+                <select class="colorBorder">
+                    <option value="black">black</option>
+                    <option value="red">red</option>
+
+                </select>
+            </div>
+            <button class="CreateTable">Create Table</button>
+        </div>
+        <div class="listWraper">
+         <div class="wraper">Count Li: <input type="text" class="countLi"></div>
+         <div class="wraper">Type Of Mask:
+         <select class="marks">
+             <option value="circle" checked>cirkle</option>
+             <option value="disk">disk</option>
+             <option value="square">square</option>
+         </select>
+         </div>
+         <button class="CreateList">Create List</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
